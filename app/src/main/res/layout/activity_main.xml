@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tiago.app_mega.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/dez1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_weight="0.00"
+        android:ems="10"
+        android:hint="X"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/dez2"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="X"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/dez3"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="X"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/dez4"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="X"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/dez5"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="X"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/dez6"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:ems="10"
+        android:hint="X"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostraDezenas"
+        android:text="OK" />
+
+</LinearLayout>
